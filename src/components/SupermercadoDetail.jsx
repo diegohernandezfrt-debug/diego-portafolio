@@ -6,10 +6,10 @@ export default function SupermercadoDetail() {
   const [lightboxImg, setLightboxImg] = useState(null);
 
   const images = [
-    "public/image/GafeteDel.png", "public/image/GafeteDet.png",
-    "public/image/Logo1.png", "public/image/logo2.png",
-    "public/image/Banner1.png", "public/image/Banner2.png",
-    "public/image/Banner3.png", "public/image/Banner4.png"
+    "image/GafeteDel.png", "image/GafeteDet.png",
+    "image/Logo1.png", "image/logo2.png",
+    "image/Banner1.png", "image/Banner2.png",
+    "image/Banner3.png", "image/Banner4.png"
   ];
 
   return (
