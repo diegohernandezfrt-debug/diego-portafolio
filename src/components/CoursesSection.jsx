@@ -2,10 +2,10 @@
 import { motion } from 'framer-motion';
 
 const certificates = [
-  { title: "Certificación Microsoft Office", file: "public/documents/Certificado de Microsoft Office.pdf" },
-  { title: "Fundamentos de Nube AWS", file: "public/documents/Certificate Fundamentos de Nube AWS.pdf" },
-  { title: "Diplomado en Educación Financiera", file: "public/documents/Certificado de Educacion Financiera.pdf" },
-  { title: "Programación en Android", file: "public/documents/Certificado de Curso de Android.pdf" }
+  { title: "Certificación Microsoft Office", file: "documents/Certificado de Microsoft Office.pdf" },
+  { title: "Fundamentos de Nube AWS", file: "documents/Certificate Fundamentos de Nube AWS.pdf" },
+  { title: "Diplomado en Educación Financiera", file: "documents/Certificado de Educacion Financiera.pdf" },
+  { title: "Programación en Android", file: "documents/Certificado de Curso de Android.pdf" }
 ];
 
 export default function CoursesSection() {
