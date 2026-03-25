@@ -12,9 +12,9 @@ export default function DifusionDetail() {
   ];
 
   const videos = [
-    { src: "public/Videos/Tec-1.mp4", title: "Video 1" },
-    { src: "public/Videos/Tec-2.mp4", title: "Video 2" },
-    { src: "public/Videos/Tec-3.mp4", title: "Video 3" }
+    { src: "Videos/Tec-1.mp4", title: "Video 1" },
+    { src: "Videos/Tec-2.mp4", title: "Video 2" },
+    { src: "Videos/Tec-3.mp4", title: "Video 3" }
   ];
 
   return (
