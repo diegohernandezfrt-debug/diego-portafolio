@@ -6,7 +6,7 @@ export default function DifusionDetail() {
   const [lightboxImg, setLightboxImg] = useState(null);
 
   const images = [
-    "image/dif1.png", "/public/image/dif2.png", "public/image/dif3.jpg",
+    "image/dif1.png", "/public/image/dif2.png", "../../public/image/dif3.jpg",
     "public/image/dif4.jpeg", "public/image/dif5.jpeg", "public/image/dif6.jpeg",
     "public/image/dif7.jpeg"
   ];
