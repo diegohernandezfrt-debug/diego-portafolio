@@ -14,3 +14,12 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Portafolio 2.0 - Diego Hernández
+
+🚀 Mi portafolio profesional actualizado con React + Tailwind + Framer Motion.
+
+### Ver en vivo:
+👉 **[https://TU_URL_DE_VERCEL.vercel.app](https://diego-portafolio-weld.vercel.app/#experiencia)**
+
+Tecnologías: React, Tailwind CSS, Framer Motion, EmailJS, Vite
