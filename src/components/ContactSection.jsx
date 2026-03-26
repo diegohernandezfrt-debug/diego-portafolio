@@ -12,10 +12,10 @@ export default function ContactSection() {
     setStatus('enviando');
 
     emailjs.sendForm(
-      'service_fwi1ct7',      // ← cámbialo
-      'template_6wssb6s',     // ← cámbialo
+      'service_fwi1ct7',      
+      'template_6wssb6s',     
       form.current,
-      '6dVLc88E1tH-NTs2Q'       // ← cámbialo
+      '6dVLc88E1tH-NTs2Q'       
     )
     .then(() => {
       setStatus('ok');
