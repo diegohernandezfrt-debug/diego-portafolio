@@ -1,4 +1,4 @@
-// src/components/Navbar.jsx
+
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
