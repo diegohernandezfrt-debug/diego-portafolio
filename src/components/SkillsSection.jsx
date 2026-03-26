@@ -1,4 +1,4 @@
-// src/components/SkillsSection.jsx
+
 import { motion } from 'framer-motion';
 
 const skillsData = [
