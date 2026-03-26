@@ -1,4 +1,4 @@
-// src/components/ExperienceSection.jsx
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import ExperienceModal from './ExperienceModal';
