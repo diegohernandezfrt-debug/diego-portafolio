@@ -12,7 +12,7 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB", "Tailwind"],
     live: "https://dh-inventory-system-fullstack.vercel.app/",
     github: "https://github.com/diegohernandezfrt-debug/inventory-system-fullstack",
-    embedUrl: "https://dh-inventory-system-fullstack.vercel.app/"   // ← puedes cambiar a ruta específica
+    embedUrl: "https://dh-inventory-system-fullstack.vercel.app/"   
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const projects = [
     tech: ["Godot 4", "GDScript"],
     live: "https://diefrank.itch.io/dhtowerdefense?secret=LMPqKJKSLsXSLN4NXw78Wc1FITc",
     github: "https://github.com/diegohernandezfrt-debug/DHTowerDefense",
-    embedUrl: "https://diefrank.itch.io/dhtowerdefense?secret=LMPqKJKSLsXSLN4NXw78Wc1FITc"   // ← ¡CAMBIA ESTO SI ES DIFERENTE!
+    embedUrl: "https://diefrank.itch.io/dhtowerdefense?secret=LMPqKJKSLsXSLN4NXw78Wc1FITc"  
   }
 ];
 
