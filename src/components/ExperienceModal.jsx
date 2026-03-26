@@ -35,7 +35,7 @@ export default function ExperienceModal({ isOpen, onClose, title, children }) {
                 </button>
               </div>
 
-              {/* CONTENIDO CON SCROLL (aquí está la solución) */}
+              {/* CONTENIDO CON SCROLL */}
               <div className="flex-1 overflow-y-auto p-8 md:p-10 scrollbar-thin scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
                 {children}
               </div>
