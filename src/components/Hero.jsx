@@ -17,7 +17,7 @@ export default function Hero() {
         >
           <div className="relative">
             <div className="w-80 h-80 md:w-96 md:h-96 rounded-3xl overflow-hidden shadow-2xl border-8 border-white dark:border-gray-800">
-              {/* ← Cambia esta imagen por tu foto real */}
+              
               <img
                 src="../../image/Perfil.png" 
                 alt="Diego Hernández"
@@ -70,7 +70,7 @@ export default function Hero() {
             📄 Descargar mi Currículum
           </motion.a>
 
-          {/* Carrusel pequeño (opcional) - puedes quitarlo después si quieres */}
+          
           <div className="pt-6">
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">Algunas de mis formaciones</p>
             {/* Aquí más adelante pondremos el carrusel con Framer Motion */}
