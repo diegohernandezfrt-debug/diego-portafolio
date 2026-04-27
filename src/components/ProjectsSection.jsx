@@ -20,9 +20,9 @@ const projects = [
     desc: "Juego completo con oleadas, torres mejorables, sonido y UI pulida. Publicado en itch.io.",
     img: "https://img.itch.zone/aW1nLzI1NzUxMDc3LmpwZw==/original/tQuTRF.jpg",
     tech: ["Godot 4", "GDScript"],
-    live: "https://diefrank.itch.io/dhtowerdefense?secret=LMPqKJKSLsXSLN4NXw78Wc1FITc",
+    live: "https://diefrank.itch.io/dhtowerdefense",
     github: "https://github.com/diegohernandezfrt-debug/DHTowerDefense",
-    embedUrl: "https://diefrank.itch.io/dhtowerdefense?secret=LMPqKJKSLsXSLN4NXw78Wc1FITc"  
+    embedUrl: "https://diefrank.itch.io/dhtowerdefense"  
   }
 ];
 
