@@ -16,7 +16,7 @@ const projects = [
   {
     id: 2,
     title: "Endless Runner Game",
-    desc: "Juego endless runner 2D con sistema de puntuación, obstáculos dinámicos, power-ups y leaderboard. Desarrollado en Godot.",
+    desc: "Juego endless runner 2D con puntuación, obstáculos y power-ups. Desarrollado en Godot.",
     img: "https://img.itch.zone/aW1hZ2UvNDUyNjU5MC8yNjk4MDE3Mi5wbmc=/original/IBIbmn.png",
     tech: ["Godot 4", "GDScript"],
     live: "https://diefrank.itch.io/dh-endless-runner-duck-mobile",
@@ -26,8 +26,8 @@ const projects = [
   {
     id: 3,
     title: "Inventory Management System",
-    desc: "Fullstack web app para gestionar productos, stock y movimientos con autenticación y dashboard en tiempo real.",
-    img: "/image/Dashboard-System-Inventory3.png",
+    desc: "Fullstack web app para gestionar productos, stock y movimientos con autenticación.",
+    img: "/Imagenes/dh-inventory-system-fullstack.vercel.app.png",
     tech: ["React", "Node.js", "MongoDB", "Tailwind"],
     live: "https://dh-inventory-system-fullstack.vercel.app/",
     github: "https://github.com/diegohernandezfrt-debug/inventory-system-fullstack",
@@ -36,7 +36,7 @@ const projects = [
   {
     id: 4,
     title: "Tower Defense 2D",
-    desc: "Juego completo con oleadas, torres mejorables, sonido y UI pulida. Publicado en itch.io.",
+    desc: "Juego completo con oleadas, torres mejorables y UI pulida.",
     img: "https://img.itch.zone/aW1nLzI1NzUxMDc3LmpwZw==/original/tQuTRF.jpg",
     tech: ["Godot 4", "GDScript"],
     live: "https://diefrank.itch.io/dhtowerdefense",
@@ -54,7 +54,7 @@ export default function ProjectsSection() {
         <motion.h2 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="text-5xl font-bold text-center mb-4"
+          className="text-5xl font-bold text-center mb-4 text-gray-900 dark:text-white"
         >
           Proyectos Destacados
         </motion.h2>
@@ -82,7 +82,7 @@ export default function ProjectsSection() {
               </div>
 
               <div className="p-8">
-                <h3 className="text-3xl font-bold mb-3">{project.title}</h3>
+                <h3 className="text-3xl font-bold mb-3 text-gray-900 dark:text-white">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-6">{project.desc}</p>
 
                 <div className="flex flex-wrap gap-2 mb-8">
@@ -122,14 +122,6 @@ export default function ProjectsSection() {
         url={selectedProject?.live}
         isGame={selectedProject?.category === 'game'}
       />
-        {selectedProject && (
-          <iframe
-            src={selectedProject.live}
-            className="w-full aspect-video rounded-2xl"
-            allowFullScreen
-          />
-        )}
-      </Modal>
     </section>
   );
 }
