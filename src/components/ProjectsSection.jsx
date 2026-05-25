@@ -119,7 +119,9 @@ export default function ProjectsSection() {
         isOpen={!!selectedProject}
         onClose={() => setSelectedProject(null)}
         title={selectedProject?.title}
-      >
+        url={selectedProject?.live}
+        isGame={selectedProject?.category === 'game'}
+      />
         {selectedProject && (
           <iframe
             src={selectedProject.live}
