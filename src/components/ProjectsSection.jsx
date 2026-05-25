@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     title: "Inventory Management System",
     desc: "Fullstack web app para gestionar productos, stock y movimientos con autenticación.",
-    img: "/Imagenes/dh-inventory-system-fullstack.vercel.app.png",
+    img: "/image/Dashboard-System-Inventory3.png",
     tech: ["React", "Node.js", "MongoDB", "Tailwind"],
     live: "https://dh-inventory-system-fullstack.vercel.app/",
     github: "https://github.com/diegohernandezfrt-debug/inventory-system-fullstack",
@@ -121,6 +121,7 @@ export default function ProjectsSection() {
         title={selectedProject?.title}
         url={selectedProject?.live}
         isGame={selectedProject?.category === 'game'}
+        isExternal={selectedProject?.live?.includes('render.com') || selectedProject?.live?.includes('onrender.com')}
       />
     </section>
   );

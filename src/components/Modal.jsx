@@ -1,6 +1,8 @@
 import { motion, AnimatePresence } from 'framer-motion';
 
-export default function Modal({ isOpen, onClose, title, url, isGame = false }) {
+export default function Modal({ isOpen, onClose, title, url, isGame = false, isExternal = false }) {
+  const shouldOpenExternal = isGame || isExternal;
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -22,15 +24,22 @@ export default function Modal({ isOpen, onClose, title, url, isGame = false }) {
             </div>
 
             <div className="flex-1 p-4 overflow-auto">
-              {isGame ? (
-                <div className="flex flex-col items-center justify-center h-[70vh] text-center">
-                  <p className="text-xl mb-6">Este juego se abre mejor en una ventana nueva</p>
+              {shouldOpenExternal ? (
+                <div className="flex flex-col items-center justify-center h-[70vh] text-center px-8">
+                  <div className="mb-8">
+                    <span className="text-6xl">🔗</span>
+                  </div>
+                  <h4 className="text-2xl font-semibold mb-4">Este proyecto se abre mejor en una ventana nueva</h4>
+                  <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-md">
+                    Debido a restricciones de seguridad del hosting, no se puede mostrar dentro de este portafolio.
+                  </p>
                   <a
                     href={url}
                     target="_blank"
-                    className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-2xl text-xl font-semibold"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-2xl text-xl font-semibold inline-flex items-center gap-3"
                   >
-                    🎮 Abrir Juego en Nueva Pestaña
+                    Abrir en Nueva Pestaña →
                   </a>
                 </div>
               ) : (
